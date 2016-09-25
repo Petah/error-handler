@@ -45,8 +45,9 @@ class EmailErrorHandler extends ErrorHandler
             return;
         }
 
-        $cssToInlineStyles = new \TijsVerkoyen\CssToInlineStyles\CssToInlineStyles();
-        $content = $cssToInlineStyles->convert($content);
+        $cssToInlineStyles = new \TijsVerkoyen\CssToInlineStyles\CssToInlineStyles($content);
+        $cssToInlineStyles->setUseInlineStylesBlock();
+        $content = $cssToInlineStyles->convert();
 
         $message = \Swift_Message::newInstance()
             ->setSubject('Error at '.date('Y-m-d h:i:s'))
