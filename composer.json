@@ -15,7 +15,7 @@
         ]
     },
     "require": {
-        "swiftmailer/swiftmailer": "^5.*",
-        "tijsverkoyen/css-to-inline-styles": "^2.*"
+        "swiftmailer/swiftmailer": "5.*",
+        "tijsverkoyen/css-to-inline-styles": "2.*"
     }
 }
