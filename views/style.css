@@ -1,0 +1,54 @@
+html {
+    font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif; 
+}
+
+body {
+    margin: 0;
+}
+
+.error-container {
+    position: relative;
+    z-index: 10000;
+    margin: auto;
+    max-width: 1200px;
+    overflow: auto;
+    background: #eee;
+    border-left: 1px solid #aaa;
+    border-right: 1px solid #aaa;
+    padding: 10px;
+    min-height: 100vh;
+}
+
+h1, 
+h2,
+h3, 
+h4, 
+p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+h1, 
+h2,
+h3, 
+h4 {
+    margin-top: 20px;
+    font-weight: lighter;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 5px 10px;
+    text-align: left;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+}
+
+.petah-debug-muted {
+    color: #999;
+}

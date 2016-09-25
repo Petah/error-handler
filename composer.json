@@ -1,0 +1,21 @@
+{
+    "name": "petah/debug",
+    "authors": [
+        {
+            "name": "David Neilsen",
+            "email": "petah.p@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Petah\\Debug\\": "classes/"
+        },
+        "files": [
+            "include.php"
+        ]
+    },
+    "require": {
+        "swiftmailer/swiftmailer": "^5.4",
+        "tijsverkoyen/css-to-inline-styles": "^2.2"
+    }
+}
